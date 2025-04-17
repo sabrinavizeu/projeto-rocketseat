@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <!-- pai -->
+  <head>
+    <!-- filho -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <!-- define quais os conjuntos de carcteres vamos utulizar ( ~ ! _ @ ç ) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ta definindo que a patrte visivel é adaptada para o aparelho ( zoom e etc ) -->
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- filho -->
+
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt=" Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo azul. "
+        />
+        <p>@crfvizeu</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button> 
+        </button>
+        <span>
+        </span>
+      </div>
+
+      <ul>
+        <!-- para criar listas nao ordenada ( para ficar so as bolinhas, nao os numeros )-->
+        <li>
+          <a href="#"> Inscrever-se no NLW </a>
+        </li>
+        <li>
+          <a href="#"> Baixar meu e-book </a>
+        </li>
+        <li>
+          <a href="https://github.com/sabrinavizeu"> Ver meu portifólio </a>
+        </li>
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank">
+            Conheça o Explorer
+          </a>
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://github.com/sabrinavizeu" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://instagram.com/crfvizeu" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://wa.me/5521983910841" target="_blank">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/in/sabrinavizeu" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      Feito com ♡ pela <a href="https://instagram.com/crfvizeu" target="_blank"> Sabrina Vizeu</a>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+    
+  </body>
+</html>
