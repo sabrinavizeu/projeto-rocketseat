@@ -17,9 +17,16 @@
 
 <br>
 
-<p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><b>Dark mode</b></td>
+    <td align="center"><b>Light mode</b></td>
+  </tr>
+  <tr>
+    <td><img alt="DevLinks no modo escuro" src=".github/preview-dark.jpg" width="100%"></td>
+    <td><img alt="DevLinks no modo claro" src=".github/preview-light.jpg" width="100%"></td>
+  </tr>
+</table>
 
 ## 🚀 Tecnologias
 
