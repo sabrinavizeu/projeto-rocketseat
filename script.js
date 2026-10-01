@@ -14,9 +14,9 @@ function toggleMode() {
   // pegar a tag img e substituir a imagem
   if (html.classList.contains("light")) {
     // para light mode, img light
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar.jpeg")
   } else {
     // para dark mode, img dark
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar.jpeg")
   }
 }
